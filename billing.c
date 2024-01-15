@@ -28,7 +28,7 @@ void generateBillHeader(char name[50],char date[30], enum etype type, FILE *fp)
     if(type == display)
     {
     printf("\n\n");
-        printf("\t    Sri venakteshwara garments");
+        printf("\tMANOJ'S FAMILY RESTAURANT");
         printf("\n\t  --------------------------");
         printf("\nDate:%s",date);
         printf("\n");
@@ -120,7 +120,7 @@ while(contFlag == 'y')
     system("clear");
     float total = 0;
     int invoiceFound = 0;
-    printf("\t============Sri venkateshwara garments============");
+    printf("\t============MANOJ'S FAMILY RESTAURANT============");
     printf("\n\nPlease select your prefered operation");
     printf("\n\n1.Generate Invoice");
     printf("\n2.Show all Invoices");
@@ -137,9 +137,9 @@ while(contFlag == 'y')
         fgets(ord.customer,50,stdin);
         ord.customer[strlen(ord.customer)-1] = 0;
         strcpy(ord.date,_DATE_);
-        printf("1.crotch blue wear jeans skinny         1365\n");
-        printf("2.showoff t-shirt white typography      973\n");
-        printf("3.D-look jeans denim fit fashion        841\n");
+        printf("1.Chinese egg noodles with schezwan masala\n");
+        printf("2.Panner 65 with butter nann\n");
+        printf("3.South-Indian mushroom fry\n");
         printf("4.Chicken fillet burger=Rs:120\n");
         printf("5.Peppy paneer pizza=Rs:90\n");                
         printf("6.Margherita pizza=Rs:135\n");
