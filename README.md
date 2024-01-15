@@ -1,0 +1,1 @@
+The project allows a user to view the menu on the display along with the item name and price. According to the user’s preference, they can choose items by writing code of that item and it will be selected. The final bill will be shown according to that 
